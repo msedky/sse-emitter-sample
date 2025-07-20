@@ -1,0 +1,36 @@
+* To Create Building
+
+curl --location 'http://localhost:7182/api/v1/buildings' \
+--header 'Content-Type: application/json' \
+--data '{
+    "nameEn":"13",
+    "nameAr":"13"
+}'
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+* To Delete Building 
+
+curl --location --request DELETE 'http://localhost:7182/api/v1/buildings/1ef9eb5b-54d0-4808-8043-026c8c371207'
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+* To Get All Buildings
+
+curl --location 'http://localhost:7182/api/v1/buildings'
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* To Get Count Buildings
+
+curl --location 'http://localhost:7182/api/v1/buildings/count'
